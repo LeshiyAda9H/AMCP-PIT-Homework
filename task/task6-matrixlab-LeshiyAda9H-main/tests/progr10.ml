@@ -1,0 +1,6 @@
+(= A (vertcat (horzcat 1 1 1 1) (horzcat 2 2 2 2) (horzcat 3 3 3 3) (horzcat 4 4 4 4)))
+(= X (diag A))
+(= B (vertcat (horzcat 1 1 1) (horzcat 2 2 2) (horzcat 3 3 3) (horzcat 4 4 4)))
+(= Y (diag B))
+(disp X)
+(disp Y)
